@@ -1,3 +1,45 @@
 $hatter: #EADBC8;
 $betu: #102C57;
 $keret: #DAC0A3;
+
+.kutya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: $hatter;
+    border: 1px solid $keret;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+  
+    .cim {
+      color: $betu;
+      font-family: Verdana, sans-serif;
+      margin-bottom: 20px;
+    }
+  
+    .kutya-kep {
+      max-width: 90%;
+      max-height: 500px;
+      border: 12px solid $keret;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .gomb {
+      background-color:  #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
