@@ -39,7 +39,7 @@ function Footer() {
   return (
     <footer className="bg-secondary py-4 sticky-bottom fixed-bottom">
       <div className="container text-center">
-        <p className="text-light">Készítette: Te</p>
+        <p className="text-light">Készítette: Máthé Gergő</p>
       </div>
     </footer>
   );
@@ -48,7 +48,7 @@ function Footer() {
 function Home() {
   return (
     <div className="container">
-      <h2 className="mt-5">
+      <h3 className="mt-5">
         <p>
           A Balaton környékén az utóbbi időben gombamódra szaporodnak az épített
           balatoni kilátók, amelyeket ha megmászunk, csodás kilátás nyílik a
@@ -62,7 +62,7 @@ function Home() {
           Ezeken túl természetesen rengeteg olyan hely is található, mely kilátó
           nélkül is nagyszerű panorámát kínál.
         </p>
-      </h2>
+      </h3>
     </div>
   );
 }
